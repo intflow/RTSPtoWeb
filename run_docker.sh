@@ -20,4 +20,4 @@ sudo docker run --name vid_stream_server \
 --net=host \
 --privileged \
 --ipc=host \
--it intflow/vid_stream_server:rtsp2webrtc /bin/bash
+-it intflow/vid_stream_server:rtsp2webrtc /bin/bash /works/RTSPtoWeb/autorun.sh

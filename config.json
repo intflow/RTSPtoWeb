@@ -7,22 +7,94 @@
     "http_login": "demo",
     "http_password": "demo",
     "http_port": ":8083",
-    "log_level": "debug",
-    "rtsp_port": ":5541",
     "https": false,
-    "https_port": ":443",
+    "https_auto_tls": false,
+    "https_auto_tls_name": "",
     "https_cert": "server.crt",
-    "https_key": "server.key"
+    "https_key": "server.key",
+    "https_port": ":443",
+    "log_level": "debug",
+    "rtsp_port": ":5541"
   },
   "streams": {
+    "06f5397c-16b3-4460-bb0b-511086ab3a01": {
+      "channels": {
+        "0": {
+          "url": "rtsp://admin:intflow3121@moonfarm.iptime.org:20655/Streaming/Channels/101/"
+        }
+      },
+      "name": "달맞이6"
+    },
+    "131dd625-6675-4560-bad5-0404df7765c6": {
+      "channels": {
+        "0": {
+          "url": "rtsp://admin:intflow3121@moonfarm.iptime.org:20555/Streaming/Channels/101/"
+        }
+      },
+      "name": "달맞이5"
+    },
+    "302919ba-a77c-438b-96df-61788eed2b49": {
+      "channels": {
+        "0": {
+          "url": "rtsp://admin:intflow3121@moonfarm.iptime.org:20955/Streaming/Channels/101/"
+        }
+      },
+      "name": "달맞이9"
+    },
+    "48a19e5e-bd9f-4aa8-8be1-199dbfc2d14a": {
+      "channels": {
+        "0": {
+          "url": "rtsp://admin:intflow3121@moonfarm.iptime.org:20155/Streaming/Channels/101/"
+        }
+      },
+      "name": "달맞이1"
+    },
+    "657c70c4-61f9-4f72-bfb2-5e18ebcb4a38": {
+      "channels": {
+        "0": {
+          "url": "rtsp://admin:intflow3121@moonfarm.iptime.org:20755/Streaming/Channels/101/"
+        }
+      },
+      "name": "달맞이7"
+    },
+    "827d3087-fc52-4853-ae53-3f10c446a1cf": {
+      "channels": {
+        "0": {
+          "url": "rtsp://admin:intflow3121@moonfarm.iptime.org:20855/Streaming/Channels/101/"
+        }
+      },
+      "name": "달맞이8"
+    },
+    "a6f47f3b-7523-49e0-b6fb-be08d81fea7a": {
+      "channels": {
+        "0": {
+          "url": "rtsp://admin:intflow3121@moonfarm.iptime.org:20455/Streaming/Channels/101/"
+        }
+      },
+      "name": "달맞이4"
+    },
+    "c3400bb8-adb9-4271-b0db-bfec84252508": {
+      "channels": {
+        "0": {
+          "url": "rtsp://admin:intflow3121@moonfarm.iptime.org:20355/Streaming/Channels/101/"
+        }
+      },
+      "name": "달맞이3"
+    },
+    "c9ad7f20-4a06-4f3b-b254-80a6c325f4c8": {
+      "channels": {
+        "0": {
+          "url": "rtsp://admin:intflow3121@moonfarm.iptime.org:20255/Streaming/Channels/101/"
+        }
+      },
+      "name": "달맞이2"
+    },
     "demo": {
       "channels": {
         "0": {
-          "debug": false,
           "url": "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov"
         },
         "1": {
-          "debug": false,
           "url": "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov"
         }
       },
